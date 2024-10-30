@@ -1,0 +1,65 @@
+body {
+	background-image: linear-gradient(to right, violet, pink);opacity: 0.95;
+	font-family: fantasy; color: whitesmoke;
+	padding: 2em 0 2em 0;
+}
+
+.mainPageTitle {
+	font-size: 70pt;
+	margin-top: 20px;
+	text-align: center;
+}
+
+p {
+	font-size: 24pt;
+	text-align: center;
+	padding: 15px 200px 15px 200px;
+}
+
+.introPara {
+	margin: 0px 0.2em 0px 0.2em;
+	text-align: justify;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2.2em;
+}
+
+h3 {
+	text-align: justify;
+	font-size: 1.5em;
+	padding: 15px;
+}
+
+.mmeditationTypes {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 2em;
+	padding:15px;
+}
+
+
+.meditationVids {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content:space-between;
+}
+
+.accompanyingVideo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+
+}
+
+.backButton {
+	display: flex;
+	justify-items: left;
+	padding: 15px;
+}
